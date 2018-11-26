@@ -1,3 +1,4 @@
+"Author: David A. LEVASTRE - BODOULE SOSSO
 filetype indent plugin on
 syntax on
 set hidden
