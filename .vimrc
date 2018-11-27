@@ -1,4 +1,5 @@
 "Author: David A. LEVASTRE - BODOULE SOSSO
+"
 filetype indent plugin on
 syntax on
 set hidden
@@ -24,3 +25,4 @@ set cursorline
 "set fileencodings=ucs-bom,utf-16,utf-8,latin-1
 set errorbells
 set novisualbell
+"set guicursor=n-v-c:block,o:hor50,i-ci:hor15,r-cr:hor30,sm:block
