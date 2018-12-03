@@ -1,28 +1,29 @@
-"Author: David A. LEVASTRE - BODOULE SOSSO
-"
-filetype indent plugin on
+set nocompatible
+if $TERM == "xterm-256color"
+	set t_Co=256
+endif
+set list
+set listchars=tab:»-,trail:·,eol:¬
+set autoindent
+set copyindent
+set ruler
+set number
 syntax on
-set hidden
-set wildmenu
-set showcmd
-set hlsearch
+filetype on
+filetype indent on
+filetype plugin on
+set incsearch
 set ignorecase
 set smartcase
-set backspace=indent,eol,start
-set autoindent
-set breakindent
-set ruler
-set confirm
-set number
+set hlsearch
+"https://github.com/dylanaraps/crayon/blob/master/colors/crayon.vim
+colorscheme crayon
+"set background=dark
+set cursorline
+set showcmd
 set wrap
 set linebreak
-set cursorline
-"language en_US
-"language fr_FR
-"set encoding=utf-8
-"set encoding=latin1
-"set fileencoding=utf-8
-"set fileencodings=ucs-bom,utf-16,utf-8,latin-1
-set errorbells
-set novisualbell
-"set guicursor=n-v-c:block,o:hor50,i-ci:hor15,r-cr:hor30,sm:block
+set belloff=all
+set confirm
+"set backspace=indent,eol,start
+set mouse=a
